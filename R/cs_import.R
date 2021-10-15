@@ -15,6 +15,7 @@
 #'
 #' #' import CSV and clean names
 #' cs_import("USArrests.csv")
+#' @export
 
 cs_import <- function(file){
   df <- rio::import(file) %>%
