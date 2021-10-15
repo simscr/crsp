@@ -4,6 +4,7 @@
 #' function from the janitor package. I got tired of using those two functions in
 #' succession for every file.
 #'
+#' @description Import file and clean names simultaneously
 #' @param file The file to be imported. Can be any file type supported by rio::import.
 #' @return A data frame with clean names
 #' @examples
