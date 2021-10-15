@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# crsp
+
+## Overview
+
+This package is an attempt to write some functions for workflows that I frequently use. 
+
+Feel free to use this package, but use it at your own risk. 
+
+## Installation
+
+```{r installation,  eval = FALSE}
+# Install from GitHub
+# install.packages("devtools")
+devtools::install_github("simscr/crsp")
+```
+
+## Usage
+
+```{r usage, eval = FALSE}
+library(crsp)
+```
+
