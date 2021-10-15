@@ -1,13 +1,12 @@
 Package: crsp
-Title: What the Package Does (One Line, Title Case)
+Title: Collection of things I use.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Clark",
+           family = "Sims",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "simscr90@gmail.com")
+Description: This package is a collection of functions and other things that I use for work or for fun. It will contain a random mix of things related to nutrition, obesity, and sports.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
