@@ -13,6 +13,9 @@ cs_import(file)
 A data frame with clean names
 }
 \description{
+Import file and clean names simultaneously
+}
+\details{
 This function combines the import function from the rio package and the clean_names
 function from the janitor package. I got tired of using those two functions in
 succession for every file.
@@ -25,4 +28,5 @@ rio::export(USArrests, "USArrests.csv")
 
 #' import CSV and clean names
 cs_import("USArrests.csv")
+
 }
