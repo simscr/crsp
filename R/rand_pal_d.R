@@ -11,6 +11,7 @@
 #'
 #' @export
 
+
 rand_pal_d <- function(n_colors = 3){
 
   available_pals <- paletteer::palettes_d_names %>%
