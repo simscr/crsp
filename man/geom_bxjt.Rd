@@ -23,5 +23,8 @@ mtcars \%>\%
 ggplot(aes(as.factor(cyl), mpg)) +
 geom_bxjt()
 
+mtcars \%>\%
+ggplot(aes(as.factor(cyl), mpg)) +
+geom_bxjt(fill = "green", color = "white")
 
 }
