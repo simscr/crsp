@@ -6,6 +6,7 @@
 #'
 #' @description Import file and clean names simultaneously
 #' @param file The file to be imported. Can be any file type supported by rio::import.
+#' @param which Which tab from an multi-tab Excel file.
 #' @return A data frame with clean names
 #' @examples
 #' library(datasets)
@@ -18,8 +19,8 @@
 #'
 #' @export
 
-cs_import <- function(file){
-  df <- rio::import(file) %>%
+cs_import <- function(file, which){
+  df <- rio::import(file, which = which) %>%
     janitor::clean_names()
 
   return(df)

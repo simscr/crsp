@@ -4,10 +4,12 @@
 \alias{cs_import}
 \title{Import a File and Clean Names}
 \usage{
-cs_import(file)
+cs_import(file, which)
 }
 \arguments{
 \item{file}{The file to be imported. Can be any file type supported by rio::import.}
+
+\item{which}{Which tab from an multi-tab Excel file.}
 }
 \value{
 A data frame with clean names

@@ -27,4 +27,5 @@ library(crsp)
 ## Notes
 
 1.  Functions I want to add: ~~import~~, mod_sum, knit_to_location,
-    frequently used plots, rmd template, themes, homa
+    frequently used plots, rmd template, themes, homa, random color
+    palette selector
