@@ -2,3 +2,4 @@
 
 export(cs_import)
 export(geom_bxjt)
+export(rand_pal_d)
