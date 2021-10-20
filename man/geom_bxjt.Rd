@@ -4,12 +4,14 @@
 \alias{geom_bxjt}
 \title{Boxplot + Jitter + Mean}
 \usage{
-geom_bxjt(..., fill = NA, color = NA)
+geom_bxjt(..., fill = "#00A2CEFF", color = NA, size = 3)
 }
 \arguments{
-\item{fill}{fill for geom_jitter}
+\item{fill}{fill for geom_jitter (default = "#00A2CEFF")}
 
 \item{color}{color for geom_jitter}
+
+\item{size}{size of points (default = 3)}
 }
 \description{
 Boxplot with jitter and mean

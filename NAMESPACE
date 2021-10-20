@@ -2,4 +2,5 @@
 
 export(cs_import)
 export(geom_bxjt)
+export(geom_smcor)
 export(rand_pal_d)
