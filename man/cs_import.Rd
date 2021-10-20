@@ -4,7 +4,7 @@
 \alias{cs_import}
 \title{Import a File and Clean Names}
 \usage{
-cs_import(file, which)
+cs_import(file, which = 1)
 }
 \arguments{
 \item{file}{The file to be imported. Can be any file type supported by rio::import.}
