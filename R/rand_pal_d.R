@@ -16,7 +16,8 @@ rand_pal_d <- function(n_colors = 3){
 
   available_pals <- paletteer::palettes_d_names %>%
     mutate(pal_length = as.numeric(length)) %>%
-    filter(pal_length >= n_colors)
+    filter(pal_length >= n_colors) %>%
+    filter(pal_length < 50)
 
   n_pals <- nrow(available_pals)
 
