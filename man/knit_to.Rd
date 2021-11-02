@@ -2,26 +2,22 @@
 % Please edit documentation in R/knit_to.R
 \name{knit_to}
 \alias{knit_to}
-\title{Knit to custom location}
+\title{Knit to outputs subfolder}
 \usage{
-knit_to(input, location, outputs, ...)
+knit_to(input, ...)
 }
 \arguments{
-\item{input}{This is the file you want to knit.}
-
-\item{location}{This is where you want to knit to.}
-
-\item{outputs}{This is the type of outputs you want.}
+\item{input}{This is the file you want to knit. This is just left blank}
 }
 \description{
-Knit to specific location
+Knit to outputs subfolder
 }
 \details{
-This function allows you to specify where you want your output files to end up when you click the \code{knit} button or use \code{Alt + Ctrl + k}.
-You have to add this function to your YAML header after the \verb{knit:} option.
+This function allows you to make your output files go to an outputs subfolder when you click the \code{knit} button or use \code{Ctrl + Shift + K}.
+You have to add this function to your YAML header after the \verb{knit:} option. It creates and html file and an .md file.
 }
 \examples{
 
-knit(location = here::here("outputs"), outputs = c("html_document", "md_document"))
+knit: crsp::knit_to
 
 }

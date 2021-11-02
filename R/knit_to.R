@@ -1,28 +1,26 @@
-#' Knit to custom location
+#' Knit to outputs subfolder
 #'
-#' This function allows you to specify where you want your output files to end up when you click the `knit` button or use `Alt + Ctrl + k`.
-#' You have to add this function to your YAML header after the `knit:` option.
+#' This function allows you to make your output files go to an outputs subfolder when you click the `knit` button or use `Ctrl + Shift + K`.
+#' You have to add this function to your YAML header after the `knit:` option. It creates and html file and an .md file.
 #'
-#' @description Knit to specific location
+#' @description Knit to outputs subfolder
 #'
-#' @param input This is the file you want to knit.
-#' @param location This is where you want to knit to.
-#' @param outputs This is the type of outputs you want.
+#' @param input This is the file you want to knit. This is just left blank
 #'
 #' @examples
 #'
-#' knit(location = here::here("outputs"), outputs = c("html_document", "md_document"))
+#' knit: crsp::knit_to
 #'
 #' @export
 
 
-knit_to <- function(input, location, outputs, ...){
+knit_to <- function(input,  ...){
 
   rmarkdown::render(
     input,
-    output_dir = location,
-    output_format = outputs
+    output_dir = here::here("outputs"),
+    output_format = c("html_document", "md_document"),
+    envir = globalenv()
   )
-
 }
 
