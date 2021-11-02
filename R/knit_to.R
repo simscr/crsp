@@ -19,7 +19,7 @@
 knit_to <- function(input, location, outputs, ...){
 
   rmarkdown::render(
-    input = input,
+    input,
     output_dir = location,
     output_format = outputs
   )
