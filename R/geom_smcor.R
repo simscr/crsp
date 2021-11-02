@@ -12,12 +12,12 @@
 #' @examples
 #'
 #' USArrests %>%
-#`   ggplot(aes(Rape, Murder)) +
-#`   geom_smcor()
+#'   ggplot(aes(Rape, Murder)) +
+#'   geom_smcor()
 #'
 #' USArrests %>%
-#`   ggplot(aes(Rape, Murder)) +
-#`   geom_smcor(pt_fill = "red", pt_color = "yellow", pt_size = 2, ln_color = "orange")
+#'   ggplot(aes(Rape, Murder)) +
+#'   geom_smcor(pt_fill = "red", pt_color = "yellow", pt_size = 2, ln_color = "orange")
 #'
 #' @export
 

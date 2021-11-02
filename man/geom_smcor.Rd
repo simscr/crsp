@@ -30,7 +30,11 @@ This function combines geom_point, geom_smooth, and stat_cor for ggplot.
 \examples{
 
 USArrests \%>\%
+  ggplot(aes(Rape, Murder)) +
+  geom_smcor()
 
 USArrests \%>\%
+  ggplot(aes(Rape, Murder)) +
+  geom_smcor(pt_fill = "red", pt_color = "yellow", pt_size = 2, ln_color = "orange")
 
 }
