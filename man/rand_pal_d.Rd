@@ -20,6 +20,6 @@ This function pulls a random discrete palette from {paletteer} that has a minimu
 }
 \examples{
 
-rand_pal_d(length = 4)
+rand_pal_d(n_colors = 4)
 
 }

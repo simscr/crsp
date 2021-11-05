@@ -7,7 +7,7 @@
 #' @return A list of the package name and the colors
 #' @examples
 #'
-#' rand_pal_d(length = 4)
+#' rand_pal_d(n_colors = 4)
 #'
 #' @export
 
