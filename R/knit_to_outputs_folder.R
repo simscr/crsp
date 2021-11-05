@@ -9,12 +9,12 @@
 #'
 #' @examples
 #'
-#' knit: crsp::knit_to
+#' knit: crsp::knit_to_outputs_folder
 #'
 #' @export
 
 
-knit_to <- function(input,  ...){
+knit_to_outputs_folder <- function(input,  ...){
 
   rmarkdown::render(
     input,
