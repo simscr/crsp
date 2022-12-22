@@ -20,7 +20,7 @@
 #' @export
 
 cs_import <- function(file, which = 1){
-  df <- rio::import(file, which = which) %>%
+  df <- rio::import(file, which = which) |>
     janitor::clean_names()
 
   return(df)
