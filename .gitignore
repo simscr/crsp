@@ -1,5 +1,7 @@
+# R stuff
 .Rproj.user
 .Rhistory
-.Rhistory
-.Rhistory
-.Rhistory
+
+# functions to ignore
+
+R/cs_homa.R

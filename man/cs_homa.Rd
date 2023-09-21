@@ -17,7 +17,7 @@ cs_homa(insulin, insulin_unit, glucose)
 Calulate HOMA-IR from Insulin and Glucose
 }
 \details{
-This function calculates HOMA-IRfrom Insulin and Glucose.
+This function calculates HOMA-IR from Insulin and Glucose.
 }
 \examples{
 

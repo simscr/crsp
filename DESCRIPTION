@@ -6,12 +6,12 @@ Authors@R:
            family = "Sims",
            role = c("aut", "cre"),
            email = "simscr90@gmail.com")
-Description: This package is a collection of functions and other things that I use for work or for fun. It will contain a random mix of things related to nutrition, obesity, and sports.
+Description: This package is a collection of functions and other things that I use for work or for fun.
 License: CC0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Imports: 
     janitor (>= 2.1.0),
     magrittr (>= 2.0.1),
